@@ -47,13 +47,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-100">
       <div className="flex flex-col z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex bg-white p-10 border-solid border-2 border-gray-300 rounded-3xl">
         <Head>
-          <title>Replicate + Next.js</title>
+          <title>Cosmo-Speak</title>
         </Head>
 
         <p className="mb-4 text-lg text-gray-700">
-          Dream something with{" "}
-          <a href="https://replicate.com/stability-ai/stable-diffusion" className="text-blue-500 hover:underline">
-            SDXL
+          Explore with{" "}
+          <a href="https://replicate.com/ydideh810/cosmo-speak" className="text-blue-500 hover:underline">
+            CosmoSpeak
           </a>:
         </p>
 
@@ -61,7 +61,7 @@ export default function Home() {
           <input
             type="text"
             name="prompt"
-            placeholder="Enter a prompt to display an image"
+            placeholder="How do those sun catcher plates make electricity?"
             className="px-4 py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
